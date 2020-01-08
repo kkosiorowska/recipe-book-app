@@ -20,6 +20,7 @@ import {DataStorageService} from './shared/data-storage.service';
 import {HttpClientModule} from '@angular/common/http';
 import { SingupComponent } from './auth/singup/singup.component';
 import { SinginComponent } from './auth/singin/singin.component';
+import {AuthService} from './auth/auth.service';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,7 @@ import { SinginComponent } from './auth/singin/singin.component';
     ReactiveFormsModule,
     AppRoutingModule
   ],
-  providers: [ShoppingListService, RecipeService, DataStorageService],
+  providers: [ShoppingListService, RecipeService, DataStorageService, AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
