@@ -18,6 +18,8 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {RecipeService} from './recipes/recipe.service';
 import {DataStorageService} from './shared/data-storage.service';
 import {HttpClientModule} from '@angular/common/http';
+import { SingupComponent } from './auth/singup/singup.component';
+import { SinginComponent } from './auth/singin/singin.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import {HttpClientModule} from '@angular/common/http';
     ShoppingEditComponent,
     DropdownDirective,
     RecipeStartComponent,
-    RecipeEditComponent
+    RecipeEditComponent,
+    SingupComponent,
+    SinginComponent
   ],
   imports: [
     BrowserModule,
