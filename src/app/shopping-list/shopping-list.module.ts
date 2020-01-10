@@ -10,9 +10,6 @@ import {ShoppingEditComponent} from './shopping-edit/shopping-edit.component';
     ShoppingListComponent,
     ShoppingEditComponent
   ],
-  exports: [
-    ShoppingListComponent
-  ],
   imports: [
     CommonModule,
     FormsModule
