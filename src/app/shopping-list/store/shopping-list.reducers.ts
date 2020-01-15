@@ -11,7 +11,7 @@ const initialState = {
     new Ingredient('Shrimp', 15)
   ]
 };
-export function shoppinglistReducer(state = initialState, action: ShoppingListActions.ShoppingListActions) {
+export function shoppingListReducer(state = initialState, action: ShoppingListActions.ShoppingListActions) {
   switch (action.type) {
     case ShoppingListActions.ADD_INGREDIENT:
       return {
