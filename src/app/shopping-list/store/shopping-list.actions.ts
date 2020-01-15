@@ -9,4 +9,4 @@ export class AddIngredient implements Action {
   payload: Ingredient;
 }
 
-export type ShoppingListAction = AddIngredient;
+export type ShoppingListActions = AddIngredient;
