@@ -8,5 +8,6 @@ authenticated: false
 };
 
 export function authReducer(state, action) {
+
   return state;
 }
