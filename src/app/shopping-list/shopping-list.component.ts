@@ -21,7 +21,6 @@ export class ShoppingListComponent implements OnInit {
   }
 
   ngOnInit() {
-    // @ts-ignore
-    this.shoppingListState = this.store.select('shoppinglist');
+    this.shoppingListState = this.store.select('shoppingList');
   }
 }
