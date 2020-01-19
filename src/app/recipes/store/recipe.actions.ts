@@ -34,7 +34,7 @@ export class DeleteRecipe implements Action {
 }
 
 export class StoreRecipes implements Action {
-  readonly type = SET_RECIPES;
+  readonly type = STORE_RECIPES;
 }
 
 export class FetchRecipes implements Action {
