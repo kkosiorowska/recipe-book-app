@@ -30,16 +30,19 @@
     </div>
   </div>
 </div>
+<br/>
 <div class="row">
   <div class="col-xs-12">
     {{ ( recipeState | async ).recipes[id].description }}
   </div>
 </div>
+<br/>
 <div class="row">
   <div class="col-xs-12">
     <ul class="list-group">
       <li
         class="list-group-item"
+        style="margin-bottom: 5px;"
         *ngFor="let ingredient of ( recipeState | async ).recipes[id].ingredients">
         {{ ingredient.name }} - {{ ingredient.amount }}
       </li>
