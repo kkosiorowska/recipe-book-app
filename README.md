@@ -1,7 +1,7 @@
 # Angular 8  recipe-book-app
 
 ## Description
-Application share a recipes and help to manage shopping list. The base of this project was tutorial - [Angular 8 - The Complete Guide](https://www.udemy.com/course/the-complete-guide-to-angular-2/). 
+Application share a recipes and help to manage shopping list. The base of this project was tutorial - [Angular 8 - The Complete Guide](https://www.udemy.com/course/the-complete-guide-to-angular-2/). The purpose of implementacion of this app was understending of Angular 8 fundaments.
 
 ### Features
 * Components
